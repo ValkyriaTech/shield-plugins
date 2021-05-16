@@ -10,7 +10,7 @@ Just load <code>shield.js</code>
 
 ## Configuration
 
-This plugin doesn't require an **APP ID**. If the application registered on [SHIELD's Dashboard](https://shield.valkyriatech.com.br/app) is a **web** type, the plugin will automatically use the <code>window.location.hostname</code> as **APP ID**
+This plugin doesn't require an **APP ID**. If the application registered on [SHIELD's Dashboard](https://shield.valkyriatech.com.br/app) is a **web** type, the plugin will automatically use the <code>window.location.hostname</code> _(example.xyz)_ as **APP ID**
 
 If the application you are going to use with this plugin **IS NOT** a web type in SHIELD's Dashboard, copy your **APP ID** and paste it on <code>shield.js</code>:
 

@@ -5,7 +5,6 @@
   function loadApplication() {
 
     // continue loading your application
-    echo 'loaded';
 
   }
 
