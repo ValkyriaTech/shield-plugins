@@ -10,7 +10,7 @@ Use <code>main.py</code> as base for your application and put <code>ShieldAuthen
 
 ## Configuration
 
-In <code>main.py</code>, set you **APP ID**. <code>authenticate()</code> will return a _boolean_. Just follow the example **if statement** and decide how your application will handle it.
+In <code>main.py</code>, set you **APP ID**. <code>authenticate()</code> will return a _boolean_. Just follow the sample **if statement** and decide how your application will handle it.
 
 ```python
 # APP IDENTIFIER DECLARATION
