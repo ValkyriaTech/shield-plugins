@@ -19,9 +19,21 @@ If the application you are going to use with this plugin **IS NOT** a web type i
 const shield_host = 'https://shield.valkyriatech.com.br/';
 
 // APP IDENTIFIER DECLARATION
-const app_identifier = 'PASTE_THE_APP_ID_HERE';
+var app_identifier = 'PASTE_THE_APP_ID_HERE';
 
-docReady(function(){
-...
-});
+if (app_identifier == '') {
+  ...
+}
+```
+
+If you are using this in browser, the plugin will automatically redirect to the domain error page or the custom redirect url. If not, you can handle on the last if statement:
+
+```javascript
+  if (window) {
+    ...
+  } else {
+
+    // app blocked!
+
+  }
 ```
