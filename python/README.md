@@ -1,6 +1,6 @@
 # SHIELD | Python3 Plugin
 
-Developed to use **SHIELD's API** and controll web applications access.
+Developed to use **SHIELD's API** and controll applications access.
 
 For SHIELD information and basic tutorial, follow the [Usage](https://shield.valkyriatech.com.br/#usage) section.
 
